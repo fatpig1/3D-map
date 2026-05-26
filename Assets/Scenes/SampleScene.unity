@@ -402,7 +402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &297347028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2765,7 +2765,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1004679269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2844,7 +2844,12 @@ MonoBehaviour:
   manager: {fileID: 74232375}
   author: {fileID: 1404103979}
   loader: {fileID: 977782625}
+  head: {fileID: 0}
   statusText: {fileID: 0}
+  followHead: 0
+  distance: 0.7
+  horizontalOffset: 0
+  verticalOffset: 0
 --- !u!114 &1006785788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3155,7 +3160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1204797434
 Transform:
   m_ObjectHideFlags: 0
